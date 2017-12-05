@@ -15,27 +15,13 @@
         <p>There was a man. There were some puppets. It was amazing.</p>
         <p>There are the experiments of the SQL.</p>
       </article>
-      <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/1G0stojwYjI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-      </section>
-      <p>LOOK WHAT WE FOUND...</p>
-      <article>
-        <div>
-          <img src="img/mst3k-small1.jpg" alt="MST3k small image 1">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/ibUsglYe4r0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div>
-          <img src="img/mst3k-small2.jpg" alt="MST3k small image 2">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/cAKentKiGOY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div>
-          <img src="img/mst3k-small3.jpg" alt="MST3k small image 3">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/GVytXppIFw0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
-      </article>
     </section>
+    <div video-directive videosrc="{{mainVidVm.videoSrc.url}}"></div>
     <footer></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <script src="app.module.js"></script>
+    <script src="app.js"></script>
+    <script src="videos/video.js"></script>
+    <script src="videos/video-controller.js"></script>
+    <script src="videos/video-directive.js"></script>
   </body>
 </html>

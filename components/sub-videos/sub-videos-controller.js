@@ -8,22 +8,25 @@ function SubVideoController($sce) {
   var subVidVm = this;
   subVidVm.subVideos = [
     { 
-      img: 'img/mst3k-small1.jpg', 
+      img: 'img/video-images/mst3k-small1.jpg', 
       url: 'https://www.youtube.com/embed/ibUsglYe4r0',
       modalShown: false,
-      alt: 'MST3k small image 1'
+      alt: 'MST3k small image 1',
+      title: 'Season 0 KTMA',
     },
     { 
-      img: 'img/mst3k-small2.jpg', 
+      img: 'img/video-images/mst3k-small2.jpg', 
       url: 'https://www.youtube.com/embed/cAKentKiGOY',
       modalShown: false,
-      alt: 'MST3k small image 2'
+      alt: 'MST3k small image 2',
+      title: 'Comedy Central The Golden Years',
     },
     { 
-      img: 'img/mst3k-small3.jpg', 
+      img: 'img/video-images/mst3k-small3.jpg', 
       url: 'https://www.youtube.com/embed/GVytXppIFw0',
       modalShown: false,
-      alt: 'MST3k small image 3'
+      alt: 'MST3k small image 3',
+      title: 'Sci-Fi, Crow\'s voice, & Ram Chips',
     },
   ];
 

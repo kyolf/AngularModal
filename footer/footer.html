@@ -1,0 +1,21 @@
+<footer>
+  <aside>
+    <p>
+      <img src="" alt="Help icon"> Help
+    </p>
+    <p>Privacy & Terms</p>
+    <select name="language-select" id="lang">
+      <option value="English" selected>English</option>
+      <option value="French">French</option>
+      <option value="Spanish">Spanish</option>
+    </select>
+  </aside>
+  <aside>
+    <p>Follow us on:</p>
+    <aside>
+      <a href="#" ng-repeat="icon in footerVm.iconArr">
+        <img ng-src="{{icon.imgLoc}}" alt="{{icon.alt}}">
+      </a>
+    </aside>
+  </aside>
+</footer>

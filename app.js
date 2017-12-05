@@ -1,8 +1,9 @@
 'use strict';
 
-angular.module('modalApp', [
-  'video',
-  'video.sub', 
+angular.module('modalApp', [ 
   'about',
-  'logo.bar'
+  'logo.bar',
+  'footer',
+  'video',
+  'video.sub',
 ]);

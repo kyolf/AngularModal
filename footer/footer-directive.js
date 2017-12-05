@@ -12,6 +12,6 @@ function footerDirective() {
     replace: true,
     restrict: 'A',
     scope: {},
-    templateUrl: 'logo-bar/logo-bar.html',
+    templateUrl: 'footer/footer.html',
   };
 }

@@ -8,17 +8,25 @@ function SubVideoController($sce) {
     { 
       img: "img/mst3k-small1.jpg", 
       url: "https://www.youtube.com/embed/ibUsglYe4r0",
-      showModal: false
+      modalShown: false
     },
     { 
       img: "img/mst3k-small2.jpg", 
       url: "https://www.youtube.com/embed/cAKentKiGOY",
-      showModal: false
+      modalShown: false
     },
     { 
       img: "img/mst3k-small3.jpg", 
       url: "https://www.youtube.com/embed/GVytXppIFw0",
-      showModal: false
+      modalShown: false
     },
-  ]
+  ];
+
+  subVidVm.convertToTrustedUrl = function(url) {
+    return $sce.trustAsResourceUrl(url);
+  };
+
+  subVidVm.showModal = function(index) {
+    return subVidVm.subVideos[index] = true;
+  };
 }

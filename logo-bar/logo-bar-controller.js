@@ -1,12 +1,12 @@
 'use strict';
 
 angular
-  .module('logo-bar')
+  .module('logo.bar')
   .controller('LogoController', LogoController);
 
 function LogoController() {
   var logoVm = this;
-  this.logoArr = [
+  logoVm.logoArr = [
     {
       imgLoc: 'img/icons/facebook.svg',
       alt: 'facebook icon'

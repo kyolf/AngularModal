@@ -1,8 +1,8 @@
 'use strict';
 
 angular
-  .module('logo-bar')
-  .directive('LogoDirective', logoDirective);
+  .module('logo.bar')
+  .directive('logoDirective', logoDirective);
 
 function logoDirective() {
   return {

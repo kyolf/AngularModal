@@ -3,5 +3,6 @@
 angular.module('modalApp', [
   'video',
   'video.sub', 
-  'about'
+  'about',
+  'logo.bar'
 ]);

@@ -1,3 +1,5 @@
+'use strict';
+
 angular
   .module('about')
   .directive('aboutDirective', aboutDirective);

@@ -1,3 +1,5 @@
+'use strict';
+
 angular
 .module('video.sub')
 .directive('subVideoDirective', subVideoDirective);

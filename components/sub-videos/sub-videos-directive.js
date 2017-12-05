@@ -10,6 +10,6 @@ function subVideoDirective() {
     replace: true,
     restrict: 'A',
     scope: {},
-    templateUrl: 'videos/sub-videos/sub-videos.html',
+    templateUrl: 'components/sub-videos/sub-videos.html',
   };
 }

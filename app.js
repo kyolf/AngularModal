@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('modalApp', ['video']);
+angular.module('modalApp', ['video','video.sub']);

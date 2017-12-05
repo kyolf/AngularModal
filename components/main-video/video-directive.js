@@ -10,6 +10,6 @@ function videoDirective() {
     replace: true,
     restrict: 'A',
     scope: {},
-    templateUrl: 'videos/video.html',
+    templateUrl: 'components/main-video/video.html',
   };
 }

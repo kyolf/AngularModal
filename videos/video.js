@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('video', []);
+angular.module('video', ['video.sub']);

@@ -1,7 +1,7 @@
 <article>
   <aside ng-repeat="subVideo in subVidVm.subVideos">
-    <img src="subVideo.img" 
-         alt="MST3k small image 1"
+    <img ng-src="{{subVideo.img}}" 
+         alt="{{subVideo.alt}}"
          ng-click="subVidVm.showModal($index)">
     <iframe width="560" 
             height="315" 

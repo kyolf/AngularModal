@@ -9,9 +9,7 @@ function videoDirective() {
     controllerAs: 'mainVidVm',
     replace: true,
     restrict: 'A',
-    scope: {
-      videosrc: '@'
-    },
-    templateUrl: 'videos/video.html'
+    scope: {},
+    templateUrl: 'videos/video.html',
   };
 }

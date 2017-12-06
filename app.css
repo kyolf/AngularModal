@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Matryoshka';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Matryoshka"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.eot?#iefix") format("embedded-opentype"), url(/doodle4google/2015/fonts/matryoshka.woff) format("woff"), url(/doodle4google/2015/fonts/matryoshka.woff2) format("woff2"), url(/doodle4google/2015/fonts/matryoshka.ttf) format("truetype"), url("/doodle4google/2015/fonts/matryoshka.svg#matryoshka") format("svg"); }
+@font-face {
+  font-family: 'Denne Sketchy';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/doodle4google/2015/fonts/denne-sketchy-webfont.eot?#iefix") format("embedded-opentype"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.woff2") format("woff2"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.woff") format("woff"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.ttf") format("truetype"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.svg#denne__sketchyregular") format("svg"); }
+@font-face {
+  font-family: 'DenneMissing';
+  src: local("Matryoshka"), url(/doodle4google/2015/fonts/matryoshka.woff) format("woff"), local("Markerfelt"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+24, U+7C; }
+.header-container {
+  height: 50px;
+  margin: 25px 10px 0 0;
+  width: 90%; }
+
+.header-container img {
+  height: 50px;
+  width: 50px; }
+
+.about_container {
+  margin: 10px;
+  width: 100%; }
+
+.title_container {
+  width: 150px;
+  margin: 10px auto; }
+
+.title_container > p {
+  text-align: center; }
+
+.desc_container {
+  width: 250px;
+  margin: 10px auto; }
+
+.desc_container > p {
+  text-align: center; }
+
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  width: 100%; }
+
+html {
+  padding: 0; }
+
+body {
+  padding: 0; }
+
+/*# sourceMappingURL=app.css.map */

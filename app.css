@@ -2,16 +2,48 @@
   font-family: 'Matryoshka';
   font-style: normal;
   font-weight: 400;
-  src: local("Matryoshka"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.eot?#iefix") format("embedded-opentype"), url(/doodle4google/2015/fonts/matryoshka.woff) format("woff"), url(/doodle4google/2015/fonts/matryoshka.woff2) format("woff2"), url(/doodle4google/2015/fonts/matryoshka.ttf) format("truetype"), url("/doodle4google/2015/fonts/matryoshka.svg#matryoshka") format("svg"); }
+  src: local("Matryoshka"), url("fonts/denne-sketchy-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/matryoshka.woff") format("woff"), url("fonts/matryoshka.woff2") format("woff2"), url("fonts/matryoshka.ttf") format("truetype"), url("fonts/matryoshka.svg#matryoshka") format("svg"); }
 @font-face {
   font-family: 'Denne Sketchy';
   font-style: normal;
   font-weight: 400;
-  src: url("/doodle4google/2015/fonts/denne-sketchy-webfont.eot?#iefix") format("embedded-opentype"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.woff2") format("woff2"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.woff") format("woff"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.ttf") format("truetype"), url("/doodle4google/2015/fonts/denne-sketchy-webfont.svg#denne__sketchyregular") format("svg"); }
+  src: url("fonts/denne-sketchy-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/denne-sketchy-webfont.woff2") format("woff2"), url("fonts/denne-sketchy-webfont.woff") format("woff"), url("fonts/denne-sketchy-webfont.ttf") format("truetype"), url("fonts/denne-sketchy-webfont.svg#denne__sketchyregular") format("svg"); }
 @font-face {
   font-family: 'DenneMissing';
-  src: local("Matryoshka"), url(/doodle4google/2015/fonts/matryoshka.woff) format("woff"), local("Markerfelt"), local("Palatino"), local("Book Antiqua");
+  src: local("Matryoshka"), url("fonts/matryoshka.woff") format("woff"), local("Markerfelt"), local("Palatino"), local("Book Antiqua");
   unicode-range: U+24, U+7C; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/roboto.ttf") format("truetype"); }
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  font-family: "Roboto"; }
+
+html {
+  padding: 0; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0; }
+
+main > p {
+  text-align: center; }
+
+.top-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px 10px 10px;
+  margin: 20px 0; }
+  .top-container a {
+    color: #949494;
+    font-size: 14px;
+    text-decoration: none; }
+
 .about_container {
   margin: 10px;
   width: 100%; }
@@ -28,6 +60,7 @@
   margin: 10px auto; }
 
 .desc_container > p {
+  color: #9a9a9a;
   text-align: center; }
 
 .main-vid-container iframe {
@@ -86,7 +119,7 @@
 
 .header-container {
   height: 50px;
-  margin: 25px 0 0 10px;
+  margin: 25px 0 0 20px;
   width: 90%; }
   .header-container img {
     height: 50px;
@@ -108,31 +141,5 @@
   .logo-container img {
     height: 50px;
     width: 50px; }
-
-html,
-body {
-  font-size: 16px;
-  height: 100%;
-  margin: 0;
-  width: 100%; }
-
-html {
-  padding: 0; }
-
-body {
-  padding: 0; }
-
-main > p {
-  text-align: center; }
-
-.top-container {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px 15px 10px 10px;
-  margin: 20px 0; }
-  .top-container a {
-    color: #949494;
-    font-size: 14px;
-    text-decoration: none; }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,10 +1,10 @@
 @import 'fonts/fonts';
-@import 'about/about';
-@import 'components/main-video/video';
-@import 'components/sub-videos/sub-videos';
-@import 'footer/footer';
-@import 'header/header';
-@import 'logo-bar/logo-bar';
+
+$header-font: 'Lora', serif;
+$mst3k-font: 'Denne Sketchy';
+$desc-font: 'Roboto';
+$ftr-font-color: #949494;
+$ftr-font-size: 14px;
 
 html,
 body {
@@ -12,6 +12,7 @@ body {
   height: 100%;
   margin: 0;
   width: 100%;
+  font-family: $desc-font;
 }
 
 html {
@@ -19,6 +20,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   padding: 0;
 }
 
@@ -38,3 +41,10 @@ main > p {
     text-decoration: none;
   }
 }
+
+@import 'about/about';
+@import 'components/main-video/video';
+@import 'components/sub-videos/sub-videos';
+@import 'footer/footer';
+@import 'header/header';
+@import 'logo-bar/logo-bar';

@@ -1,6 +1,8 @@
 @import 'fonts/fonts';
 @import 'header/header';
 @import 'about/about';
+@import 'components/main-video/video';
+@import 'components/sub-videos/sub-videos';
 
 html,
 body {
@@ -16,4 +18,8 @@ html {
 
 body {
   padding: 0;
+}
+
+main > p {
+  text-align: center;
 }

@@ -1,6 +1,6 @@
 @import 'fonts/fonts';
 
-$header-font: 'Lora', serif;
+$title-font: 'Lora', serif;
 $mst3k-font: 'Denne Sketchy';
 $desc-font: 'Roboto';
 $ftr-font-color: #949494;
@@ -26,6 +26,7 @@ body {
 }
 
 main > p {
+  font-family: $title-font;
   text-align: center;
 }
 

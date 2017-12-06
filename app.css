@@ -32,6 +32,8 @@ body {
   padding: 0; }
 
 main > p {
+  font-family: "Lora", serif;
+  font-size: 23px;
   text-align: center; }
 
 .top-container {
@@ -44,24 +46,37 @@ main > p {
     font-size: 14px;
     text-decoration: none; }
 
-.about_container {
+.about-container {
   margin: 10px;
   width: 100%; }
 
-.title_container {
+.title-container {
   width: 150px;
   margin: 10px auto; }
 
-.title_container > p {
+.title-container > p {
   text-align: center; }
 
-.desc_container {
-  width: 250px;
+.title-container > p:first-child {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  margin: 5px 0; }
+
+.title-container > p:nth-child(2) {
+  font-family: "Denne Sketchy";
+  font-size: 40px;
+  margin: 0; }
+
+.desc-container {
+  width: 270px;
   margin: 10px auto; }
 
-.desc_container > p {
+.desc-container > p {
   color: #9a9a9a;
   text-align: center; }
+
+.desc-hide-small {
+  display: none; }
 
 .main-vid-container iframe {
   width: 100%;

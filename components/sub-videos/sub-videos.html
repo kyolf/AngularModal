@@ -1,11 +1,18 @@
-<article>
-  <aside ng-repeat="subVideo in subVidVm.subVideos">
-    <article class="sub-vid-img-container">
+<article class="sub-vid-container">
+  <aside class="sub-vid-container" 
+         ng-repeat="subVideo in subVidVm.subVideos">
+    <article class="sub-vid-img-container" 
+             ng-click="subVidVm.showModal($index)">
       <img ng-src="{{subVideo.img}}" 
            alt="{{subVideo.alt}}"
-           ng-click="subVidVm.showModal($index)">
-      <p>{{subVideo.title}}</p>
-      <p class="explore">Explore <img src="img/icons/right-arrow.png" alt="arrow icon"></p>
+           class="sub-vid-img">
+      <aside class="sub-vid-text-container">
+        <p class="sub-vid-text">{{subVideo.title}}</p>
+        <aside class='explore-container'>
+          <p class="explore">Explore</p>
+          <img src="img/icons/right-arrow.png" alt="arrow icon">
+        </aside>
+      </aside>
     </article>
     <iframe width="560" 
             height="315" 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="modalApp">
+<html id="top" ng-app="modalApp">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,12 @@
       <aside sub-video-directive></aside>
     </main>
     <aside logo-directive></aside>
-    <footer footer-directive></footer>
+    <footer>
+      <aside>
+        <a href="#top" class="hide-tablet">Back to Top ^</a>
+      </aside>
+      <footer footer-directive></footer>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <script src="app.js"></script>

@@ -1,18 +1,23 @@
-<footer>
-  <aside>
-    <p>
-      <img src="img/icons/help.png" alt="Help icon"> Help
-    </p>
-    <p>Privacy & Terms</p>
+<footer class="ftr-container">
+  <aside class="left-ftr-container">
+    <a href="#">
+      <aside>
+        <img src="img/icons/help.png" alt="Help icon" class="help-img">
+        <p>Help</p>
+      </aside> 
+    </a>
+    <a href="#">
+      <p>Privacy & Terms</p>
+    </a>
     <select name="language-select" id="lang">
       <option value="English" selected>English</option>
       <option value="French">French</option>
       <option value="Spanish">Spanish</option>
     </select>
   </aside>
-  <aside>
-    <p>Follow us on:</p>
-    <aside>
+  <aside class="right-ftr-container">
+    <p class="hide-phone">Follow us on:</p>
+    <aside class="ftr-icons">
       <a href="#" ng-repeat="icon in footerVm.iconArr">
         <img ng-src="{{icon.imgLoc}}" alt="{{icon.alt}}">
       </a>

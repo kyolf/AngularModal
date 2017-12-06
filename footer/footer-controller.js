@@ -8,19 +8,19 @@ function FooterController() {
   var footerVm = this;
   footerVm.iconArr = [
     {
-      imgLoc: 'img/icons/facebook.svg',
+      imgLoc: 'img/icons/facebook-gray.png',
       alt: 'Facebook icon'
     },
     {
-      imgLoc: 'img/icons/linkedin.svg',
+      imgLoc: 'img/icons/linkedin-gray.png',
       alt: 'LinkedIn icon'
     },
     {
-      imgLoc: 'img/icons/blogger.svg',
+      imgLoc: 'img/icons/twitter-gray.png',
       alt: 'Blogger icon'
     },
     {
-      imgLoc: 'img/icons/youtube.svg',
+      imgLoc: 'img/icons/youtube-gray.png',
       alt: 'Youtube icon'
     },
   ];

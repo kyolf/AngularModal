@@ -1,12 +1,15 @@
 $ftr-bg-color: #f1f1f1;
+$ftr-font-color: #949494;
+$ftr-font-size: 14px;
 
 .ftr-container {
   background-color: $ftr-bg-color;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 30px 10px;
 
   a {
+    color: $ftr-font-color;
     text-decoration: none;
   }
 }
@@ -21,8 +24,9 @@ $ftr-bg-color: #f1f1f1;
   }
 
   #lang {
-    border: 0px;
     background-color: $ftr-bg-color;
+    border: 0px;
+    color: $ftr-font-color;
   }
 
   .help-img {
@@ -33,14 +37,14 @@ $ftr-bg-color: #f1f1f1;
   }
 
   p {
-    font-size: 14px;
+    font-size: $ftr-font-size;
     margin: 5px 0 0;
   }
 }
 
 .right-ftr-container {
   display: flex;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .hide-phone {

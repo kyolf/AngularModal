@@ -25,3 +25,16 @@ body {
 main > p {
   text-align: center;
 }
+
+.top-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px 10px 10px;
+  margin: 20px 0;
+
+  a {
+    color: $ftr-font-color;
+    font-size: $ftr-font-size;
+    text-decoration: none;
+  }
+}

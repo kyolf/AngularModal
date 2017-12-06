@@ -13,5 +13,8 @@ function logoDirective() {
     restrict: 'A',
     scope: {},
     templateUrl: 'logo-bar/logo-bar.html',
+    link: function(scope, elements, attrs) {
+      console.log(scope);
+    }
   };
 }

@@ -8,19 +8,19 @@ function LogoController() {
   var logoVm = this;
   logoVm.logoArr = [
     {
-      imgLoc: 'img/icons/facebook.svg',
+      imgLoc: 'img/icons/facebook.png',
       alt: 'facebook icon'
     },
     {
-      imgLoc: 'img/icons/twitter.svg',
+      imgLoc: 'img/icons/twitter.png',
       alt: 'twitter icon'
     },
     {
-      imgLoc: 'img/icons/googleplus.svg',
+      imgLoc: 'img/icons/googleplus.png',
       alt: 'google plus icon'
     },
     {
-      imgLoc: 'img/icons/pinterest.svg',
+      imgLoc: 'img/icons/pinterest.png',
       alt: 'pInterest icon'
     }
   ];

@@ -405,11 +405,11 @@ main > p {
 @media only screen and (min-width: 650px) {
   .logo-container {
     width: 100%; } }
-@media only screen and (min-width: 850px) {
-  .logo-container {
-    width: 85%; } }
 @media only screen and (min-width: 660px) {
   .logo-container {
     width: 660px; } }
+@media only screen and (min-width: 850px) {
+  .logo-container {
+    width: 87%; } }
 
 /*# sourceMappingURL=app.css.map */

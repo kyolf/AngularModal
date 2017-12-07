@@ -54,6 +54,7 @@ main > p {
     width: 450px; } }
 @media only screen and (min-width: 550px) {
   .top-container {
+    margin: 30px auto;
     width: 550px; } }
 @media only screen and (min-width: 650px) {
   .top-container {
@@ -195,17 +196,25 @@ main > p {
     height: 550px;
     width: 550px; }
 
+  .sub-vid-container:nth-child(2) .sub-vid-text-container {
+    width: 265px; }
+
+  .sub-vid-container:last-child .sub-vid-text-container {
+    width: 192px; }
+
   .sub-vid-text-container {
     left: 60px;
-    top: 295px; } }
+    top: 295px; }
+    .sub-vid-text-container .sub-vid-text {
+      font-size: 33px;
+      margin: 25px 0; } }
 @media only screen and (min-width: 650px) {
   .sub-vid-container {
     height: 650px;
     width: 650px; }
 
   .sub-vid-text-container {
-    left: 60px;
-    top: 295px; } }
+    top: 360px; } }
 .ftr-container {
   background-color: #f1f1f1;
   display: flex;

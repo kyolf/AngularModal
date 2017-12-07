@@ -29,7 +29,7 @@ $header-border: #ddd;
 @media only screen and (min-width: 550px) {
   .header-container {
     height: 75px;
-    margin: 35px 0;
+    margin: 35px auto;
     padding-left: 35px;
     width: 550px;
 
@@ -42,13 +42,20 @@ $header-border: #ddd;
 
 @media only screen and (min-width: 650px) {
   .header-container {
-    width: 650px;
+    width: 615px;
   }
 }
 
 @media only screen and (min-width: 700px) {
   .header-container {
-    border: 1px solid $header-border;
+    border-bottom: 2px solid $header-border;
     height: 85px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .header-container {
+    margin: 60px auto 35px;
+    width: 85%;
   }
 }

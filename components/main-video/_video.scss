@@ -7,7 +7,7 @@
   }
 }
 
-@media only screen and (min-width: 350px){
+@media only screen and (min-width: 350px) {
   .main-vid-container {
     iframe {
       @include vid-container-size(350px);
@@ -15,7 +15,7 @@
   }
 }
 
-@media only screen and (min-width: 450px){
+@media only screen and (min-width: 450px) {
   .main-vid-container {
     iframe {
       @include vid-container-size(450px);
@@ -23,7 +23,7 @@
   }
 }
 
-@media only screen and (min-width: 550px){
+@media only screen and (min-width: 550px) {
   .main-vid-container {
     iframe {
       @include vid-container-size(550px);
@@ -31,10 +31,19 @@
   }
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 650px) {
   .main-vid-container {
     iframe {
       @include vid-container-size(650px);
+    }
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .main-vid-container {
+    iframe {
+      height: 500px;
+      width: 87%;
     }
   }
 }

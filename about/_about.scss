@@ -65,12 +65,11 @@
 
 @media only screen and (min-width: 550px) {
   .desc-container {
-    margin: 15px auto;
     width: 365px;
   }
 
   .desc-container > p {
-    font-size: 20px;
+    font-size: 19px;
   }
   
   .title-container {
@@ -87,23 +86,18 @@
 }
 
 @media only screen and (min-width: 700px) {
-  .desc-container {
-    margin: 15px auto;
-    width: 450px;
-  }
-
-  .desc-container > p {
-    font-size: 25px;
-  }
+  // .desc-container {
+  //   width: 450px;
+  // }
   
-  .desc-hide-large {
-    display: block;
-    margin: 10px 0;
-  }
+  // .desc-hide-large {
+  //   display: block;
+  //   margin: 10px 0;
+  // }
 
-  .desc-hide-small {
-    display: none;
-  }
+  // .desc-hide-small {
+  //   display: none;
+  // }
 
   .title-container {
     width: 300px;

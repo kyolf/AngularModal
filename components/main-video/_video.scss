@@ -10,8 +10,7 @@
 @media only screen and (min-width: 350px){
   .main-vid-container {
     iframe {
-      height: 350px;
-      width: 350px;
+      @include vid-container-size(350px);
     }
   }
 }
@@ -19,8 +18,23 @@
 @media only screen and (min-width: 450px){
   .main-vid-container {
     iframe {
-      height: 450px;
-      width: 450px;
+      @include vid-container-size(450px);
+    }
+  }
+}
+
+@media only screen and (min-width: 550px){
+  .main-vid-container {
+    iframe {
+      @include vid-container-size(550px);
+    }
+  }
+}
+
+@media only screen and (min-width: 650px){
+  .main-vid-container {
+    iframe {
+      @include vid-container-size(650px);
     }
   }
 }

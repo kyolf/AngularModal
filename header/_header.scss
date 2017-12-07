@@ -23,3 +23,19 @@
     width: 450px;
   }
 }
+
+@media only screen and (min-width: 550px){
+  .header-container {
+    margin-top: 35px;
+    padding-left: 20px;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 650px){
+  .header-container {
+    margin-top: 45px;
+    padding-left: 30px;
+    width: 650px;
+  }
+}

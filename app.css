@@ -36,15 +36,31 @@ main > p {
   display: flex;
   justify-content: flex-end;
   padding: 10px 15px 10px 10px;
-  margin: 20px 0; }
+  margin: 20px auto;
+  width: 300px; }
   .top-container a {
     color: #949494;
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none; }
 
+@media only screen and (min-width: 350px) {
+  .top-container {
+    width: 350px; } }
 @media only screen and (min-width: 400px) {
   main > p {
     font-size: 18px; } }
+@media only screen and (min-width: 450px) {
+  .top-container {
+    width: 450px; } }
+@media only screen and (min-width: 550px) {
+  .top-container {
+    width: 550px; } }
+@media only screen and (min-width: 650px) {
+  .top-container {
+    width: 650px; } }
+@media only screen and (min-width: 700px) {
+  .top-container {
+    display: none; } }
 .about-container {
   margin: 30px 0 10px;
   width: 100%; }
@@ -108,6 +124,14 @@ main > p {
   .main-vid-container iframe {
     height: 450px;
     width: 450px; } }
+@media only screen and (min-width: 550px) {
+  .main-vid-container iframe {
+    height: 550px;
+    width: 550px; } }
+@media only screen and (min-width: 650px) {
+  .main-vid-container iframe {
+    height: 650px;
+    width: 650px; } }
 .sub-vid-container {
   margin: 0 auto 10px;
   width: 300px;
@@ -142,23 +166,46 @@ main > p {
     width: 25px; }
   .explore-container p {
     color: #117dcc;
+    font-weight: bold;
     margin: 4px 10px 0 0; }
 
 @media only screen and (min-width: 350px) {
   .sub-vid-container {
-    width: 350px;
-    height: 350px; }
+    height: 350px;
+    width: 350px; }
 
   .sub-vid-text-container {
     left: 35px;
     top: 170px; } }
 @media only screen and (min-width: 450px) {
+  .explore-container {
+    font-size: 20px; }
+
   .sub-vid-container {
-    width: 450px;
-    height: 450px; }
+    height: 450px;
+    width: 450px; }
 
   .sub-vid-text-container {
     top: 240px; } }
+@media only screen and (min-width: 500px) {
+  .sub-vid-container {
+    margin: 0 auto 20px; } }
+@media only screen and (min-width: 550px) {
+  .sub-vid-container {
+    height: 550px;
+    width: 550px; }
+
+  .sub-vid-text-container {
+    left: 60px;
+    top: 295px; } }
+@media only screen and (min-width: 650px) {
+  .sub-vid-container {
+    height: 650px;
+    width: 650px; }
+
+  .sub-vid-text-container {
+    left: 60px;
+    top: 295px; } }
 .ftr-container {
   background-color: #f1f1f1;
   display: flex;
@@ -168,10 +215,22 @@ main > p {
     color: #949494;
     text-decoration: none; }
 
+.ftr-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 150px; }
+  .ftr-icons img {
+    height: 20px;
+    width: 20px; }
+
+.hide-follow-small {
+  display: none; }
+
 .left-ftr-container {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  width: 300px; }
   .left-ftr-container aside {
     display: flex; }
   .left-ftr-container #lang {
@@ -191,17 +250,6 @@ main > p {
   display: flex;
   margin: 15px 0; }
 
-.hide-phone {
-  display: none; }
-
-.ftr-icons {
-  display: flex;
-  justify-content: space-around;
-  width: 50%; }
-  .ftr-icons img {
-    height: 20px;
-    width: 20px; }
-
 .header-container {
   height: 50px;
   margin: 25px auto 0;
@@ -219,6 +267,16 @@ main > p {
     margin-top: 35px;
     padding-left: 20px;
     width: 450px; } }
+@media only screen and (min-width: 550px) {
+  .header-container {
+    margin-top: 35px;
+    padding-left: 20px;
+    width: 550px; } }
+@media only screen and (min-width: 650px) {
+  .header-container {
+    margin-top: 45px;
+    padding-left: 30px;
+    width: 650px; } }
 .logo-container {
   background-color: #1DA1F2;
   padding: 10px 0;
@@ -236,7 +294,7 @@ main > p {
     height: 50px;
     width: 50px; }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 310px) {
   .logo-container {
     width: 310px;
     margin: 0 auto; } }
@@ -252,5 +310,17 @@ main > p {
 @media only screen and (min-width: 460px) {
   .logo-container {
     width: 460px; } }
+@media only screen and (min-width: 550px) {
+  .logo-container {
+    width: 100%; } }
+@media only screen and (min-width: 560px) {
+  .logo-container {
+    width: 560px; } }
+@media only screen and (min-width: 650px) {
+  .logo-container {
+    width: 100%; } }
+@media only screen and (min-width: 660px) {
+  .logo-container {
+    width: 660px; } }
 
 /*# sourceMappingURL=app.css.map */

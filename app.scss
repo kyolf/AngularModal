@@ -4,7 +4,7 @@ $title-font: 'Lora', serif;
 $mst3k-font: 'Denne Sketchy';
 $desc-font: 'Roboto', sans-serif;
 $ftr-font-color: #949494;
-$ftr-font-size: 14px;
+$ftr-font-size: 15px;
 
 html,
 body {
@@ -34,7 +34,8 @@ main > p {
   display: flex;
   justify-content: flex-end;
   padding: 10px 15px 10px 10px;
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 300px;
 
   a {
     color: $ftr-font-color;
@@ -43,9 +44,45 @@ main > p {
   }
 }
 
-@media only screen and (min-width: 400px){
+@mixin vid-container-size($size) {
+  height: $size;
+  width: $size;
+}
+
+@media only screen and (min-width: 350px) {
+  .top-container {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
   main > p {
     font-size: 18px
+  }
+}
+
+@media only screen and (min-width: 450px){
+  .top-container {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 550px){
+  .top-container {
+    margin: 30px auto;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 650px){
+  .top-container {
+    width: 650px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .top-container {
+    display: none;
   }
 }
 

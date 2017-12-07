@@ -22,7 +22,7 @@
   }
 }
 
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 310px){
   .logo-container {
     width: 310px;
     margin: 0 auto;
@@ -50,5 +50,29 @@
 @media only screen and (min-width: 460px){
   .logo-container {
     width: 460px;
+  }
+}
+
+@media only screen and (min-width: 550px){
+  .logo-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 560px){
+  .logo-container {
+    width: 560px;
+  }
+}
+
+@media only screen and (min-width: 650px){
+  .logo-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 660px){
+  .logo-container {
+    width: 660px;
   }
 }

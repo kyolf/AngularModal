@@ -61,3 +61,34 @@ $ftr-font-size: 14px;
   display: flex;
   margin: 15px 0;
 }
+
+@media only screen and (min-width: 650px) {
+  .hide-follow-small {
+    color: $ftr-font-color;
+    display: block;
+    font-size: $ftr-font-size;
+    margin: 5px 0 0;
+  }
+  
+  .ftr-container {
+    flex-direction: row;
+    padding: 35px 10px;
+  }
+
+  .left-ftr-container {
+    width: 50%;
+  }
+
+  .right-ftr-container {
+    justify-content: flex-end;
+    margin: 0;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .ftr-container {
+    margin: 0 auto 50px;
+    width: 660px;
+  }
+}

@@ -57,7 +57,7 @@ main > p {
 
 @media only screen and (min-width: 400px) {
   main > p {
-    font-size: 18px
+    font-size: 18px;
   }
 }
 
@@ -68,6 +68,10 @@ main > p {
 }
 
 @media only screen and (min-width: 550px){
+  main > p {
+    font-size: 22px;
+  }
+  
   .top-container {
     margin: 30px auto;
     width: 550px;
@@ -81,6 +85,11 @@ main > p {
 }
 
 @media only screen and (min-width: 700px) {
+  main > p {
+    font-size: 30px;
+    margin: 40px 0;
+  }
+
   .top-container {
     display: none;
   }

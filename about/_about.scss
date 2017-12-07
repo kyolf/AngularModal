@@ -61,3 +61,59 @@
     font-size: 47px;
   }
 }
+
+
+@media only screen and (min-width: 550px) {
+  .desc-container {
+    margin: 15px auto;
+    width: 365px;
+  }
+
+  .desc-container > p {
+    font-size: 20px;
+  }
+  
+  .title-container {
+    width: 220px;
+  }
+
+  .title-container > p:first-child {
+    font-size: 27px;
+  }
+
+  .title-container > p:nth-child(2) {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .desc-container {
+    margin: 15px auto;
+    width: 450px;
+  }
+
+  .desc-container > p {
+    font-size: 25px;
+  }
+  
+  .desc-hide-large {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .desc-hide-small {
+    display: none;
+  }
+
+  .title-container {
+    width: 300px;
+  }
+
+  .title-container > p:first-child {
+    font-size: 35px;
+  }
+
+  .title-container > p:nth-child(2) {
+    font-size: 70px;
+  }
+}

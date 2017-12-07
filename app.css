@@ -53,6 +53,9 @@ main > p {
   .top-container {
     width: 450px; } }
 @media only screen and (min-width: 550px) {
+  main > p {
+    font-size: 22px; }
+
   .top-container {
     margin: 30px auto;
     width: 550px; } }
@@ -60,6 +63,10 @@ main > p {
   .top-container {
     width: 650px; } }
 @media only screen and (min-width: 700px) {
+  main > p {
+    font-size: 30px;
+    margin: 40px 0; }
+
   .top-container {
     display: none; } }
 .about-container {
@@ -111,6 +118,45 @@ main > p {
 
   .title-container > p:nth-child(2) {
     font-size: 47px; } }
+@media only screen and (min-width: 550px) {
+  .desc-container {
+    margin: 15px auto;
+    width: 365px; }
+
+  .desc-container > p {
+    font-size: 20px; }
+
+  .title-container {
+    width: 220px; }
+
+  .title-container > p:first-child {
+    font-size: 27px; }
+
+  .title-container > p:nth-child(2) {
+    font-size: 54px; } }
+@media only screen and (min-width: 700px) {
+  .desc-container {
+    margin: 15px auto;
+    width: 450px; }
+
+  .desc-container > p {
+    font-size: 25px; }
+
+  .desc-hide-large {
+    display: block;
+    margin: 10px 0; }
+
+  .desc-hide-small {
+    display: none; }
+
+  .title-container {
+    width: 300px; }
+
+  .title-container > p:first-child {
+    font-size: 35px; }
+
+  .title-container > p:nth-child(2) {
+    font-size: 70px; } }
 .main-vid-container iframe {
   display: block;
   height: 300px;
@@ -211,7 +257,8 @@ main > p {
 @media only screen and (min-width: 650px) {
   .sub-vid-container {
     height: 650px;
-    width: 650px; }
+    width: 650px;
+    margin: 0 auto 30px; }
 
   .sub-vid-text-container {
     top: 360px; } }
@@ -259,6 +306,28 @@ main > p {
   display: flex;
   margin: 15px 0; }
 
+@media only screen and (min-width: 650px) {
+  .hide-follow-small {
+    color: #949494;
+    display: block;
+    font-size: 14px;
+    margin: 5px 0 0; }
+
+  .ftr-container {
+    flex-direction: row;
+    padding: 35px 10px; }
+
+  .left-ftr-container {
+    width: 50%; }
+
+  .right-ftr-container {
+    justify-content: flex-end;
+    margin: 0;
+    width: 50%; } }
+@media only screen and (min-width: 650px) {
+  .ftr-container {
+    margin: 0 auto 50px;
+    width: 660px; } }
 .header-container {
   height: 50px;
   margin: 25px auto 0;
@@ -278,14 +347,20 @@ main > p {
     width: 450px; } }
 @media only screen and (min-width: 550px) {
   .header-container {
-    margin-top: 35px;
-    padding-left: 20px;
-    width: 550px; } }
+    height: 75px;
+    margin: 35px 0;
+    padding-left: 35px;
+    width: 550px; }
+    .header-container img {
+      height: 75px;
+      width: 75px; } }
 @media only screen and (min-width: 650px) {
   .header-container {
-    margin-top: 45px;
-    padding-left: 30px;
     width: 650px; } }
+@media only screen and (min-width: 700px) {
+  .header-container {
+    border: 1px solid #ddd;
+    height: 85px; } }
 .logo-container {
   background-color: #1DA1F2;
   padding: 10px 0;

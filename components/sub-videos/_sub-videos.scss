@@ -118,6 +118,7 @@
 @media only screen and (min-width: 650px) {
   .sub-vid-container {
     @include vid-container-size(650px);
+    margin: 0 auto 30px;
   }
 
   .sub-vid-text-container {

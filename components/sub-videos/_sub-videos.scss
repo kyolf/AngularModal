@@ -2,8 +2,23 @@
   margin-bottom: 5px;
 }
 
+.sub-vid-container:nth-child(2) {
+  .sub-vid-text-container {
+    width: 196px;
+  }
+}
+
 .sub-vid-container:last-child {
   margin-bottom: 0;
+
+  .sub-vid-img-container {
+    height: 300px;
+    border-bottom: 1px #5d5d5d solid;
+  }
+
+  .sub-vid-text-container {
+    width: 145px;
+  }
 }
 
 .sub-vid-img-container {
@@ -23,6 +38,10 @@
   .sub-vid-text {
     color: #fff;
     font-size: 25px;
+  }
+
+  .sub-vid-text:last-child {
+    font-size: 26px !important;
   }
 }
 

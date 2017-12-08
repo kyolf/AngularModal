@@ -403,10 +403,12 @@ main > p {
     width: 660px; }
 
   .left-ftr-container {
-    margin-left: 10px; }
+    margin-left: 10px;
+    width: 40%; }
 
   .right-ftr-container {
-    margin: 0 10px 0 0; } }
+    margin: 0 10px 0 0;
+    width: 56%; } }
 @media only screen and (min-width: 850px) {
   .ftr-container {
     width: 87%; } }

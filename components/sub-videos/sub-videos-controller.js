@@ -35,6 +35,6 @@ function SubVideoController($sce) {
   };
 
   subVidVm.showModal = function(index) {
-    subVidVm.subVideos[index].modalShown = true;
+    subVidVm.subVideos[index].modalShown = !subVidVm.subVideos[index].modalShown;
   };
 }

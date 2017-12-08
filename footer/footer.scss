@@ -102,7 +102,14 @@ $ftr-font-size: 14px;
 }
 
 @media only screen and (min-width: 850px) {
-  .ftr-container{
+  .ftr-container {
     width: 87%;
   }
+}
+
+@media only screen and (min-width: 1000px) {
+  .ftr-container {
+    padding: 48px 0;
+  }
+
 }

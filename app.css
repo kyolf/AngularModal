@@ -414,7 +414,13 @@ main > p {
     width: 87%; } }
 @media only screen and (min-width: 1000px) {
   .ftr-container {
-    padding: 48px 0; } }
+    padding: 48px 0; }
+
+  .left-ftr-container {
+    width: 34%; }
+
+  .right-ftr-container {
+    width: 63%; } }
 .header-container {
   height: 50px;
   margin: 25px auto 0;

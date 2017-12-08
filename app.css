@@ -134,6 +134,19 @@ main > p {
   .title-container > p:nth-child(2) {
     font-size: 54px; } }
 @media only screen and (min-width: 700px) {
+  .desc-container {
+    width: 525px; }
+
+  .desc-container > p {
+    font-size: 14px; }
+
+  .desc-hide-large {
+    display: none; }
+
+  .desc-hide-small {
+    display: block;
+    margin: 10px 0; }
+
   .title-container {
     width: 300px; }
 
@@ -142,6 +155,12 @@ main > p {
 
   .title-container > p:nth-child(2) {
     font-size: 70px; } }
+@media only screen and (min-width: 1000px) {
+  .title-container > p:first-child {
+    font-size: 33px; }
+
+  .title-container > p:nth-child(2) {
+    font-size: 80px; } }
 .main-vid-container iframe {
   display: block;
   height: 300px;

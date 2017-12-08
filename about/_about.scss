@@ -86,18 +86,22 @@
 }
 
 @media only screen and (min-width: 700px) {
-  // .desc-container {
-  //   width: 450px;
-  // }
+  .desc-container {
+    width: 525px;
+  }
   
-  // .desc-hide-large {
-  //   display: block;
-  //   margin: 10px 0;
-  // }
+  .desc-container > p {
+    font-size: 14px;
+  }
 
-  // .desc-hide-small {
-  //   display: none;
-  // }
+  .desc-hide-large {
+    display: none;
+  }
+
+  .desc-hide-small {
+    display: block;
+    margin: 10px 0;
+  }
 
   .title-container {
     width: 300px;
@@ -109,5 +113,15 @@
 
   .title-container > p:nth-child(2) {
     font-size: 70px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-container > p:first-child {
+    font-size: 33px;
+  }
+
+  .title-container > p:nth-child(2) {
+    font-size: 80px;
   }
 }
